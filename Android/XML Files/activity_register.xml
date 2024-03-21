@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/reg"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginRight="61dp"
+        android:text="Student Registration"
+        android:textSize="20dp"
+
+        android:gravity="center"
+        android:background="#80673AB7"
+        android:textColor="#FBF9F9"
+        android:textColorHint="#FAF9F9"/>
+
+    <EditText
+        android:id="@+id/uid"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/reg"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginRight="62dp"
+        android:hint="UID"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="#80000000"
+        android:textColor="#FBF9F9"
+        android:textColorHint="#FAF9F9"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/uid"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginRight="61dp"
+        android:hint="Name"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="#80000000"
+        android:textColor="#FBF9F9"
+        android:textColorHint="#FAF9F9"/>
+
+    <!--    <EditText-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="5sp"-->
+    <!--        android:layout_below="@+id/name"-->
+    <!--        android:id="@+id/branch"-->
+    <!--        android:hint="Branch"/>-->
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/name"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginRight="61dp"
+        android:hint="Password"
+        android:inputType="numberPassword"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="#80000000"
+        android:textColor="#FBF9F9"
+        android:textColorHint="#FAF9F9"/>
+
+
+    <!--    <EditText-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="5sp"-->
+    <!--        android:layout_below="@+id/spinbranch"-->
+    <!--        android:id="@+id/school"-->
+    <!--        android:hint="School"/>-->
+    <Spinner
+        android:id="@+id/spinbranch"
+        android:textAlignment="center"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/password"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginRight="62dp"
+        android:autofillHints="[Select branch type...]"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:background="#80FFEB3B"
+        android:textColor="#FBF9F9"
+        android:textColorHint="#FAF9F9"/>
+
+    <!--    <EditText-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="5sp"-->
+    <!--        android:layout_below="@+id/school"-->
+    <!--        android:id="@+id/section"-->
+    <!--        android:hint="Section"/>-->
+
+    <Spinner
+        android:id="@+id/spinschool"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/spinbranch"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginRight="61dp"
+        android:autofillHints="[Select school type...]"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="#80FFEB3B"
+        android:textAlignment="center"
+        android:textColor="#FBF9F9"
+        android:textColorHint="#FAF9F9"/>
+
+    <Spinner
+        android:id="@+id/spinsection"
+        android:textAlignment="center"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/spinschool"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginRight="63dp"
+        android:autofillHints="[Select section type...]"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="#80FFEB3B"
+        android:textColor="#FBF9F9"
+        android:textColorHint="#FAF9F9"/>
+
+    <EditText
+        android:id="@+id/block"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/spinsection"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginRight="59dp"
+        android:hint="Block"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="#80000000"
+        android:textColor="#FBF9F9"
+        android:textColorHint="#FAF9F9"/>
+
+    <EditText
+        android:id="@+id/rfid"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/block"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginRight="57dp"
+        android:hint="Rfid"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="#80000000"
+        android:textColor="#FBF9F9"
+        android:textColorHint="#FAF9F9"/>
+
+    <EditText
+        android:id="@+id/pnum"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/rfid"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:hint="Phnum"
+        android:inputType="phone"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="#80000000"
+        android:textColor="#FBF9F9"
+        android:textColorHint="#FAF9F9"/>
+
+    <Button
+        android:id="@+id/regb"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/pnum"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:text="Register Student"
+        android:textColor="#FAF9F9"
+        android:backgroundTint="#80E91E63"/>
+
+</RelativeLayout>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80070707"
+    tools:context=".DetailsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dname"
+        android:textStyle="bold"
+        android:layout_margin="10sp"
+        android:text="Name: "
+        android:textColor="#FAF3F3"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dschool"
+        android:textStyle="bold"
+        android:layout_below="@+id/dname"
+        android:layout_margin="10sp"
+        android:text="School: "
+        android:textColor="#FAF3F3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dbranch"
+        android:textStyle="bold"
+        android:layout_below="@+id/dschool"
+        android:layout_margin="10sp"
+        android:text="Branch: "
+        android:textColor="#FAF3F3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dsection"
+        android:textStyle="bold"
+        android:layout_below="@+id/dbranch"
+        android:layout_margin="10sp"
+        android:text="Section: "
+        android:textColor="#FAF3F3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dblock"
+        android:textStyle="bold"
+        android:layout_below="@+id/dsection"
+        android:layout_margin="10sp"
+        android:text="Block: "
+        android:textColor="#FAF3F3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/drfid"
+        android:textStyle="bold"
+        android:layout_below="@+id/dblock"
+        android:layout_margin="10sp"
+        android:text="Rfid: "
+        android:textColor="#FAF3F3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dphnum"
+        android:layout_below="@+id/drfid"
+        android:textStyle="bold"
+        android:layout_margin="10sp"
+        android:text="Phone Number: "
+        android:textColor="#FAF3F3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dbname"
+        android:layout_toRightOf="@+id/dname"
+        android:layout_margin="10sp"
+        android:textColor="#FAF3F3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dbschol"
+        android:layout_toRightOf="@id/dschool"
+        android:layout_below="@+id/dbname"
+        android:layout_margin="10sp"
+        android:textColor="#FAF3F3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dbbranch"
+        android:layout_toRightOf="@+id/dbranch"
+        android:layout_below="@+id/dbschol"
+        android:layout_margin="10sp"
+        android:textColor="#FAF3F3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dbsection"
+        android:layout_toRightOf="@+id/dsection"
+        android:layout_below="@+id/dbbranch"
+        android:layout_margin="10sp"
+        android:textColor="#FAF3F3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dbblock"
+        android:layout_toRightOf="@+id/dblock"
+        android:layout_below="@+id/dbsection"
+        android:layout_margin="10sp"
+        android:textColor="#FAF3F3"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dbrfid"
+        android:layout_toRightOf="@+id/drfid"
+        android:layout_below="@+id/dbblock"
+        android:layout_margin="10sp"
+        android:textColor="#FAF3F3"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dbphn"
+        android:layout_toRightOf="@+id/dphnum"
+        android:layout_below="@+id/dbrfid"
+        android:layout_margin="10sp"
+        android:textColor="#FAF3F3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_uid"
+        android:layout_below="@+id/dphnum"
+        android:text="Uid"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#FAF3F3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date_"
+        android:layout_below="@+id/dphnum"
+        android:layout_toRightOf="@+id/id_uid"
+        android:text="Date"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#FAF3F3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_"
+        android:layout_below="@+id/dphnum"
+        android:layout_toRightOf="@+id/date_"
+        android:text="Time"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FAF3F3"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_uid"
+        android:id="@+id/lv"
+        android:layout_marginTop="10dp"
+        android:background="#FFEBEE"
+        android:textColor="#FAF3F3"/>
+
+</RelativeLayout>

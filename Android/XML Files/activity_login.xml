@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".LoginActivity">
+
+    <!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/logi"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:textSize="18dp"-->
+<!--        android:fontFamily="cursive"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:id="@+id/forgot"-->
+<!--        android:text="Forgot Password?"-->
+<!--        android:textColor="#f91f1f"/>-->
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logi"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/registe"
+        android:textColor="#0fe63d"
+        android:text="Not a member yet? Register now!"
+        android:textStyle="bold"/>-->
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="330dp"
+        android:background="#80000000"
+        android:gravity="center"
+        android:hint="Email ID"
+        android:textAlignment="center"
+        android:textColor="#F8F3F3"
+        android:textColorHint="#F8F2F2"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/username"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginRight="53dp"
+        android:background="#80000000"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="#F8F3F3"
+        android:textColorHint="#F8F2F2"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/logi"
+        style="@style/Base.V23.Theme.AppCompat"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/pass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#80E91E63"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="#F8F3F3"
+        android:textColorHint="#F8F2F2"
+        android:textSize="25dp"
+        android:visibility="visible" />
+
+    <ProgressBar
+
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/pass"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/pgsbar"
+        android:visibility="gone"
+        android:indeterminateTint="#FFE64A10" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="326dp"
+        android:layout_height="146dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:src="@drawable/a" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="-62dp"
+        android:background="#809C27B0"
+        android:gravity="center"
+        android:text="ADMIN LOGIN"
+        android:textColor="#F8F3F3"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>

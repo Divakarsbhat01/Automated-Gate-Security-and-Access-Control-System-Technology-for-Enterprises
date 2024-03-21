@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".TableActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Tuid"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="15sp"
+        android:textColor="@color/black"
+        android:text="uid"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Tdate"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="15sp"
+        android:layout_toRightOf="@+id/Tuid"
+        android:textColor="@color/black"
+        android:text="Date"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Ttime"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="15sp"
+        android:layout_toRightOf="@+id/Tdate"
+        android:textColor="@color/black"
+        android:text="Time"/>
+
+    <ListView
+        android:background="#80F8F5F5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mlist1"
+        android:layout_marginTop="40sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+      />
+
+</RelativeLayout>

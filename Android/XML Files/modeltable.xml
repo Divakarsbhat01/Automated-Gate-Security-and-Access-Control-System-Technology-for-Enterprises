@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:scrollbars="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:scrollbars="horizontal">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/Tuid"-->
+<!--        android:layout_margin="10sp"-->
+<!--        android:text="uid"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/Tname"-->
+<!--        android:layout_margin="10sp"-->
+<!--        android:layout_toRightOf="@+id/Tuid"-->
+<!--        android:text="name"/>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/Tschool"-->
+<!--        android:layout_margin="10sp"-->
+<!--        android:layout_toRightOf="@+id/Tname"-->
+<!--        android:text="School"/>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/Tbranch"-->
+<!--        android:layout_margin="10sp"-->
+<!--        android:layout_toRightOf="@+id/Tschool"-->
+<!--        android:text="Branch"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/Tsection"-->
+<!--        android:layout_margin="10sp"-->
+<!--        android:layout_toRightOf="@+id/Tbranch"-->
+<!--        android:text="Section"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/Tblock"-->
+<!--        android:layout_margin="10sp"-->
+<!--        android:layout_toRightOf="@+id/Tsection"-->
+<!--        android:text="block"/>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/Trfid"-->
+<!--        android:layout_margin="10sp"-->
+<!--        android:layout_toRightOf="@+id/Tblock"-->
+<!--        android:text="Rfid"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/Tphn"-->
+<!--        android:layout_margin="10sp"-->
+<!--        android:layout_toRightOf="@+id/Trfid"-->
+<!--        android:text="phn"/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Duid"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="15sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Ddate"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="15sp"
+        android:layout_toRightOf="@+id/Duid"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Dtime"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="15sp"
+        android:layout_toRightOf="@+id/Ddate"
+        />
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/Dbranch"-->
+<!--        android:layout_margin="5sp"-->
+<!--       -->
+<!--        android:layout_toRightOf="@+id/Dschool"-->
+<!--        />-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/Dsection"-->
+<!--        android:layout_margin="5sp"-->
+<!--      -->
+<!--        android:layout_toRightOf="@+id/Dbranch"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/Dblock"-->
+<!--        android:layout_margin="5sp"-->
+<!--     -->
+<!--        android:layout_toRightOf="@+id/Dsection"-->
+<!--        />-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/Drfid"-->
+<!--        android:layout_margin="5sp"-->
+<!--       -->
+<!--        android:layout_toRightOf="@+id/Dblock"-->
+<!--        />-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/Dphnum"-->
+<!--        android:layout_margin="5sp"-->
+<!--        android:layout_below="@+id/Tphn"-->
+<!--        android:layout_toRightOf="@+id/Drfid"-->
+<!--        />-->
+
+</RelativeLayout>
+    </LinearLayout>
+
+</HorizontalScrollView>
